@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ccd7a95435726ab5",
+        "id": "c7dfe11f64cb5569",
         "type": "tabs",
         "children": [
           {
-            "id": "d0a5afdf91279cf3",
+            "id": "9fd1428fe95762f0",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -177,7 +177,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "7c8adc9a994fd4af",
+  "active": "9fd1428fe95762f0",
   "lastOpenFiles": [
     "LAB/Git_hub.md",
     "Claud_ai_DBA/6 phase logical storage.md",
