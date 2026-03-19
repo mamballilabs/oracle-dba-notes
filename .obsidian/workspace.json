@@ -11,10 +11,14 @@
             "id": "49d924eabd0fe061",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "LAB/Git_hub.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Git_hub"
             }
           }
         ]
@@ -179,6 +183,7 @@
   },
   "active": "49d924eabd0fe061",
   "lastOpenFiles": [
+    "LAB/bash.md",
     "LAB/ubuntu shortcuts.md",
     "LAB/Git_hub.md",
     "Claud_ai_DBA/6 phase logical storage.md",
@@ -189,7 +194,6 @@
     "Claud_ai_DBA/2 Phase 1 SGA 2.md",
     "Claud_ai_DBA/2 Phase 1 step 2 SGA.md",
     "Claud_ai_DBA/1 Phase 1 Oracle architecture foundations.md",
-    "LAB/bash.md",
     "LAB",
     "Claud_ai_DBA/Pasted image 20260317114659.png",
     "Phase 1 sql query.md",
