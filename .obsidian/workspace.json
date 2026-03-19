@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c7dfe11f64cb5569",
+        "id": "c1884970a688c6a9",
         "type": "tabs",
         "children": [
           {
-            "id": "9fd1428fe95762f0",
+            "id": "49d924eabd0fe061",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -177,8 +177,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "9fd1428fe95762f0",
+  "active": "49d924eabd0fe061",
   "lastOpenFiles": [
+    "LAB/ubuntu shortcuts.md",
     "LAB/Git_hub.md",
     "Claud_ai_DBA/6 phase logical storage.md",
     "Claud_ai_DBA/5 phase 1 Physical storage.md",
@@ -189,7 +190,6 @@
     "Claud_ai_DBA/2 Phase 1 step 2 SGA.md",
     "Claud_ai_DBA/1 Phase 1 Oracle architecture foundations.md",
     "LAB/bash.md",
-    "LAB/ubuntu shortcuts.md",
     "LAB",
     "Claud_ai_DBA/Pasted image 20260317114659.png",
     "Phase 1 sql query.md",
