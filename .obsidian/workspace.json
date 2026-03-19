@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ead2153e74f03410",
+        "id": "ccd7a95435726ab5",
         "type": "tabs",
         "children": [
           {
-            "id": "02229a8863eff1a9",
+            "id": "d0a5afdf91279cf3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LAB/Git_hub.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Git_hub"
+              "title": "New tab"
             }
           }
         ]
@@ -171,6 +167,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
