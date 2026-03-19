@@ -63,3 +63,22 @@ USERS tablespace  (7 MB)
         └── Extents (groups of blocks allocated per segment)
             └── Blocks (8 KB each, holds actual row data)
 ```
+
+```sql
+SQL> run
+  1  select tablespace_name, status, contents, extent_management, segment_space_management
+  2  from dba_tablespaces
+  3* order by tablespace_name
+
+TABLESPACE_NAME 	       STATUS	 CONTENTS	       EXTENT_MAN SEGMEN
+------------------------------ --------- --------------------- ---------- ------
+SYSAUX			       ONLINE	 PERMANENT	       LOCAL	  AUTO
+SYSTEM			       ONLINE	 PERMANENT	       LOCAL	  MANUAL
+TEMP			       ONLINE	 TEMPORARY	       LOCAL	  MANUAL
+UNDOTBS1		       ONLINE	 UNDO		       LOCAL	  MANUAL
+USERS			       ONLINE	 PERMANENT	       LOCAL	  AUTO
+
+SQL> 
+
+```
+
