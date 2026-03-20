@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "39d15ac4d11f31db",
+        "id": "f3d958936c26d4c2",
         "type": "tabs",
         "children": [
           {
-            "id": "ef5aed3d2bbc07f0",
+            "id": "b7d42877ef84e224",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -181,18 +181,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ef5aed3d2bbc07f0",
+  "active": "b7d42877ef84e224",
   "lastOpenFiles": [
-    "Claud_ai_DBA/Pasted image 20260315220514.png",
+    "Claud_ai_DBA/4 Phase 1 background process.md",
+    "Claud_ai_DBA/5 phase 1 Physical storage.md",
     "Claud_ai_DBA/6 phase logical storage.md",
+    "Claud_ai_DBA/1 sql.md",
     "Claud_ai_DBA/1 Phase 1 Oracle architecture foundations.md",
+    "Claud_ai_DBA/Pasted image 20260315220514.png",
     "LAB/ubuntu shortcuts.md",
     "LAB/Git_hub.md",
     "LAB/Git_hub.md~",
     "LAB/bash.md",
-    "Claud_ai_DBA/5 phase 1 Physical storage.md",
-    "Claud_ai_DBA/4 Phase 1 background process.md",
-    "Claud_ai_DBA/1 sql.md",
     "Claud_ai_DBA/3 Phase 1 PGA.md",
     "Claud_ai_DBA/2 Phase 1 SGA 2.md",
     "Claud_ai_DBA/2 Phase 1 step 2 SGA.md",
