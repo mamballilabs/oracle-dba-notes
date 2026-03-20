@@ -1,4 +1,4 @@
- oracle is two different things running together 
+** oracle is two different things running together 
  1. Database = files sitting on disk
  2. Instance = running set of memory structures and background processes
 
