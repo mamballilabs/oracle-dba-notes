@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f3d958936c26d4c2",
+        "id": "2a196eb117fc48e6",
         "type": "tabs",
         "children": [
           {
-            "id": "95ac3f5ec70fed42",
+            "id": "7a2cdbac347d4dbf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Claud_ai_DBA/Phase 1 Q and A.md",
+                "file": "Phase2_networking/1. Listener.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Phase 1 Q and A"
+              "title": "1. Listener"
             }
           }
         ]
@@ -181,28 +181,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7c8adc9a994fd4af",
+  "active": "7a2cdbac347d4dbf",
   "lastOpenFiles": [
-    "Claud_ai_DBA/4 Phase 1 background process.md",
-    "Claud_ai_DBA/Phase 1 Q and A.md",
-    "Claud_ai_DBA/7 phase 1 CDB-PDB deep dive.md",
-    "Untitled",
-    "Claud_ai_DBA/6 phase logical storage.md",
-    "Claud_ai_DBA/5 phase 1 Physical storage.md",
-    "Claud_ai_DBA/3 Phase 1 PGA.md",
-    "Claud_ai_DBA/2.2 Phase 1 step 2 SGA.md",
-    "Claud_ai_DBA/2.1 Phase 1 SGA 2.md",
-    "Claud_ai_DBA/1 Phase 1 Oracle architecture foundations.md",
-    "Claud_ai_DBA/1 sql.md",
-    "Claud_ai_DBA/Pasted image 20260315220514.png",
+    "Phase2_networking/1. Listener.md",
+    "Claud_ai_DBA/Phase1_architecture/Phase 1 Q and A.md",
+    "Phase2_networking",
+    "Claud_ai_DBA/Phase1_architecture",
+    "Claud_ai_DBA/Phase1_architecture/4 Phase 1 background process.md",
+    "Claud_ai_DBA/Phase1_architecture/7 phase 1 CDB-PDB deep dive.md",
+    "Claud_ai_DBA/Phase1_architecture/6 phase logical storage.md",
+    "Claud_ai_DBA/Phase1_architecture/5 phase 1 Physical storage.md",
+    "Claud_ai_DBA/Phase1_architecture/3 Phase 1 PGA.md",
+    "Claud_ai_DBA/Phase1_architecture/2.2 Phase 1 step 2 SGA.md",
+    "Claud_ai_DBA/Phase1_architecture/2.1 Phase 1 SGA 2.md",
+    "Claud_ai_DBA/Phase1_architecture/1 Phase 1 Oracle architecture foundations.md",
+    "Claud_ai_DBA/Phase1_architecture/1 sql.md",
+    "Claud_ai_DBA/Phase1_architecture/Pasted image 20260315220514.png",
     "LAB/ubuntu shortcuts.md",
     "LAB/Git_hub.md",
     "LAB/Git_hub.md~",
     "LAB/bash.md",
     "LAB",
-    "Claud_ai_DBA/Pasted image 20260317114659.png",
+    "Claud_ai_DBA/Phase1_architecture/Pasted image 20260317114659.png",
     "Phase 1 sql query.md",
-    "Claud_ai_DBA/Pasted image 20260316084538.png",
+    "Claud_ai_DBA/Phase1_architecture/Pasted image 20260316084538.png",
     "Claud_ai_DBA/Phase 1.md",
     "Claud_ai_DBA",
     "Welcome.md"
