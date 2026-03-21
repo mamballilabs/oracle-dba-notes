@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Claud_ai_DBA/2 Phase 1 step 2 SGA.md",
+                "file": "Claud_ai_DBA/6 phase logical storage.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2 Phase 1 step 2 SGA"
+              "title": "6 phase logical storage"
             }
           }
         ]
@@ -183,19 +183,19 @@
   },
   "active": "b7d42877ef84e224",
   "lastOpenFiles": [
-    "Claud_ai_DBA/2 Phase 1 SGA 2.md",
-    "Claud_ai_DBA/1 Phase 1 Oracle architecture foundations.md",
-    "Claud_ai_DBA/1 sql.md",
-    "Claud_ai_DBA/4 Phase 1 background process.md",
     "Claud_ai_DBA/5 phase 1 Physical storage.md",
+    "Claud_ai_DBA/4 Phase 1 background process.md",
+    "Claud_ai_DBA/3 Phase 1 PGA.md",
+    "Claud_ai_DBA/2 Phase 1 step 2 SGA.md",
+    "Claud_ai_DBA/2 Phase 1 SGA 2.md",
+    "Claud_ai_DBA/1 sql.md",
+    "Claud_ai_DBA/1 Phase 1 Oracle architecture foundations.md",
     "Claud_ai_DBA/6 phase logical storage.md",
     "Claud_ai_DBA/Pasted image 20260315220514.png",
     "LAB/ubuntu shortcuts.md",
     "LAB/Git_hub.md",
     "LAB/Git_hub.md~",
     "LAB/bash.md",
-    "Claud_ai_DBA/3 Phase 1 PGA.md",
-    "Claud_ai_DBA/2 Phase 1 step 2 SGA.md",
     "LAB",
     "Claud_ai_DBA/Pasted image 20260317114659.png",
     "Phase 1 sql query.md",

@@ -157,5 +157,3 @@ SQL>
 
 ```
 
-test
-test

@@ -171,4 +171,3 @@ Variable Size     1200 MB  →    shared pool           1136 MB
                                                        ~1200 MB ✅
 ```
 
-test
