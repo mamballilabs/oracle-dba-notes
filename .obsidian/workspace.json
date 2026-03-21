@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2a196eb117fc48e6",
+        "id": "33433264c1a42057",
         "type": "tabs",
         "children": [
           {
-            "id": "7a2cdbac347d4dbf",
+            "id": "ca5cb73fe3f9966d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Claud_ai_DBA/Phase2_networking/1. Listener.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "1. Listener"
+              "title": "New tab"
             }
           }
         ]
@@ -181,9 +177,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7c8adc9a994fd4af",
+  "active": "ca5cb73fe3f9966d",
   "lastOpenFiles": [
     "Claud_ai_DBA/Phase2_networking/1. Listener.md",
+    "Untitled 1.md",
+    "Untitled.md",
     "Claud_ai_DBA/Phase1_architecture/Phase 1 Q and A.md",
     "Claud_ai_DBA/Phase2_networking",
     "Claud_ai_DBA/Phase1_architecture",
