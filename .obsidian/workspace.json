@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5
+    "width": 200
   },
   "right": {
     "id": "b89750bf77f9d3c3",
@@ -186,11 +186,11 @@
     "Claud_ai_DBA/5 phase 1 Physical storage.md",
     "Claud_ai_DBA/4 Phase 1 background process.md",
     "Claud_ai_DBA/3 Phase 1 PGA.md",
-    "Claud_ai_DBA/2 Phase 1 step 2 SGA.md",
-    "Claud_ai_DBA/2 Phase 1 SGA 2.md",
-    "Claud_ai_DBA/1 sql.md",
+    "Claud_ai_DBA/2.2 Phase 1 step 2 SGA.md",
+    "Claud_ai_DBA/2.1 Phase 1 SGA 2.md",
     "Claud_ai_DBA/1 Phase 1 Oracle architecture foundations.md",
     "Claud_ai_DBA/6 phase logical storage.md",
+    "Claud_ai_DBA/1 sql.md",
     "Claud_ai_DBA/Pasted image 20260315220514.png",
     "LAB/ubuntu shortcuts.md",
     "LAB/Git_hub.md",
