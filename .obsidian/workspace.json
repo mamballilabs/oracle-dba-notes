@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Phase2_networking/1. Listener.md",
+                "file": "Claud_ai_DBA/Phase2_networking/1. Listener.md",
                 "mode": "source",
                 "source": false
               },
@@ -181,11 +181,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7a2cdbac347d4dbf",
+  "active": "7c8adc9a994fd4af",
   "lastOpenFiles": [
-    "Phase2_networking/1. Listener.md",
+    "Claud_ai_DBA/Phase2_networking/1. Listener.md",
     "Claud_ai_DBA/Phase1_architecture/Phase 1 Q and A.md",
-    "Phase2_networking",
+    "Claud_ai_DBA/Phase2_networking",
     "Claud_ai_DBA/Phase1_architecture",
     "Claud_ai_DBA/Phase1_architecture/4 Phase 1 background process.md",
     "Claud_ai_DBA/Phase1_architecture/7 phase 1 CDB-PDB deep dive.md",
