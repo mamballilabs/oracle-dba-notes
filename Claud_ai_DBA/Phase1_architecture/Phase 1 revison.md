@@ -178,3 +178,45 @@ full sequence of brand new database:
    — reads PFILE/SPFILE → finds control_files → MOUNT → OPEN
 ```
 
+SPFILE is a **binary file** that Oracle itself writes to directly. Any `ALTER SYSTEM SET parameter=value` change is **persisted automatically** — survives restarts. No human needs to manually edit a file.
+With a PFILE — you change a parameter with `ALTER SYSTEM`, instance picks it up — but **next restart it's gone** unless you manually edited the text file yourself.
+
+Real scenario:
+
+```sql
+ALTER SYSTEM SET memory_target=999G SCOPE=SPFILE;
+-- DBA made a typo. Committed to SPFILE.
+-- Instance is shut down for maintenance.
+-- STARTUP fails. Oracle cannot allocate 999G.
+-- SPFILE is binary. You cannot edit it.
+```
+Recovery steps:
+1. create PFILE from the corrupted SPFILE (if instance never started, do it form OS copy) or
+   edit the existing initORCLCDB.ora directly in vi - fix the bad parameter
+2. start using PFILE explicitly
+```sql
+STARTUP PFILE='/opt/oracle/product/26.0.0/dbhome_1/dbs/initORCLCDB.ora';
+```
+3. verify database is healthy
+```sql
+select status from v$instance;
+```
+4. recreate clean SPFILE from the working PFILE
+```sql
+create spfile from pfile;
+```
+5. restart to pick up the new spfile
+```sql
+shutdown immediate;
+startup;
+```
+
+- we have to explicitly tell the path to use the pfile or it will use the corrupt spfile and fails again 
+- The search order oracle uses at startup
+1. spfile<sid>.ora 
+   2. spfile .ora
+   3. init<sid>.ora -- pfile
+all in `$ORACLE_HOME/dbs` 
+
+
+
