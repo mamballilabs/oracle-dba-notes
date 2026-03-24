@@ -11,10 +11,14 @@
             "id": "3d0f9e1b7bcb3932",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Claud_ai_DBA/Phase1_architecture/Phase 1 revison.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Phase 1 revison"
             }
           }
         ]
