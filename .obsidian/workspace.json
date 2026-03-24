@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7b2eb1ff57fe18a4",
+        "id": "02db17f9cdafd6ac",
         "type": "tabs",
         "children": [
           {
-            "id": "63e4f020fa684c80",
+            "id": "3d0f9e1b7bcb3932",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -177,12 +177,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "63e4f020fa684c80",
+  "active": "3d0f9e1b7bcb3932",
   "lastOpenFiles": [
+    "Claud_ai_DBA/Phase1_architecture/Phase 1 revison.md",
+    "Claud_ai_DBA/Phase1_architecture/Phase 1 Q and A.md",
+    "Claud_ai_DBA/Phase1_architecture/1 Phase 1 Oracle architecture foundations.md",
     "Claud_ai_DBA/Phase2_networking/2. Dedicated vs Shared Server.md",
     "Claud_ai_DBA/Phase2_networking/1. Listener.md",
     "Untitled 1.md",
-    "Claud_ai_DBA/Phase1_architecture/Phase 1 Q and A.md",
     "Claud_ai_DBA/Phase2_networking",
     "Claud_ai_DBA/Phase1_architecture",
     "Claud_ai_DBA/Phase1_architecture/4 Phase 1 background process.md",
@@ -192,7 +194,6 @@
     "Claud_ai_DBA/Phase1_architecture/3 Phase 1 PGA.md",
     "Claud_ai_DBA/Phase1_architecture/2.2 Phase 1 step 2 SGA.md",
     "Claud_ai_DBA/Phase1_architecture/2.1 Phase 1 SGA 2.md",
-    "Claud_ai_DBA/Phase1_architecture/1 Phase 1 Oracle architecture foundations.md",
     "Claud_ai_DBA/Phase1_architecture/1 sql.md",
     "Claud_ai_DBA/Phase1_architecture/Pasted image 20260315220514.png",
     "LAB/ubuntu shortcuts.md",
