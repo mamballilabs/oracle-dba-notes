@@ -76,3 +76,12 @@ STARTUP NOMOUNT;
 RESTORE CONTROLFILE FROM '/backup/cf.bkp';
 ALTER DATABASE MOUNT;   -- now it can mount
 ```
+
+## MOUNT State Operations 
+
+| Operation                             | State Required | Why                                                                   |
+| ------------------------------------- | -------------- | --------------------------------------------------------------------- |
+| Renaming datafiles / redo logs        | **MOUNT** ✅    | Control file must be open, but datafiles must be offline              |
+| Enabling/Disabling ARCHIVELOG mode    | **MOUNT** ✅    | Oracle writes this change to the control file — no user access needed |
+| **Full database recovery (complete)** | **MOUNT** ✅    | Database must be closed to users during full recovery                 |
+| Querying user tables                  | **OPEN** only  | Datafiles must be online and accessible                               |
