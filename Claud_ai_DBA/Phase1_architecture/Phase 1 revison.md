@@ -174,3 +174,56 @@ Mar 21 — spfileORCLCDB.ora            ← SPFILE created from PFILE later
 ```
 
 DBCA created `initORCLCDB.ora` (the PFILE) **first** — on the filesystem — _before_ issuing `STARTUP NOMOUNT`. That's how the instance knew how to start with no database yet existing.
+
+```bash
+[oracle@ol9ai ~]$ pwd
+/home/oracle
+[oracle@ol9ai ~]$ cd $ORACLE_HOME/dbs
+[oracle@ol9ai dbs]$ cat initORCLCDB.ora
+ORCLCDB.__data_transfer_cache_size=0
+ORCLCDB.__datamemory_area_size=0
+ORCLCDB.__db_cache_size=6006243328
+ORCLCDB.__inmemory_ext_roarea=0
+ORCLCDB.__inmemory_ext_rwarea=0
+ORCLCDB.__java_pool_size=0
+ORCLCDB.__large_pool_size=50331648
+ORCLCDB.__oracle_base='/opt/oracle'#ORACLE_BASE set from environment
+ORCLCDB.__pga_aggregate_target=2483027968
+ORCLCDB.__sga_target=7415529472
+ORCLCDB.__shared_io_pool_size=134217728
+ORCLCDB.__shared_pool_size=1191182336
+ORCLCDB.__streams_pool_size=0
+ORCLCDB.__unified_pga_pool_size=0
+ORCLCDB._instance_recovery_bloom_filter_size=1048576
+*.compatible='23.6.0'
+*.control_files='/opt/oracle/oradata/ORCLCDB/control01.ctl','/opt/oracle/oradata/ORCLCDB/control02.ctl'
+*.db_block_size=8192
+*.db_name='ORCLCDB'
+*.diagnostic_dest='/opt/oracle'
+*.dispatchers='(PROTOCOL=TCP) (SERVICE=ORCLCDBXDB)'
+*.enable_pluggable_database=true
+*.local_listener='LISTENER_ORCLCDB'
+*.nls_language='AMERICAN'
+*.nls_territory='AMERICA'
+*.open_cursors=300
+*.pga_aggregate_target=2358m
+*.processes=480
+*.remote_login_passwordfile='EXCLUSIVE'
+*.sga_target=7072m
+*.undo_tablespace='UNDOTBS1'
+[oracle@ol9ai dbs]$
+```
+
+```bash
+*.control_files='/opt/oracle/oradata/ORCLCDB/control01.ctl','/opt/oracle/oradata/ORCLCDB/control02.ctl'
+```
+- On a **new database** → `CREATE DATABASE` reads this parameter and **creates** the control files at those paths
+- On an **existing database** → `STARTUP MOUNT` reads this parameter and **opens** the already existing control files
+
+Question:
+You are building a brand new database from scratch. You write a minimal PFILE. You start with `STARTUP NOMOUNT`. You run `CREATE DATABASE`.
+
+**What happens if you forget to put `control_files` in your PFILE?**
+`NOMOUNT → MOUNT` failing makes sense for an **existing** database. But we're talking about `CREATE DATABASE` on a **brand new** system.
+
+So — does `CREATE DATABASE` **fail**? Or does Oracle do something else?
